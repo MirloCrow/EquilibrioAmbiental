@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca de Nosotros</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<header class="header-about">
+    <div class="menu container">
+        <img src="imagenes/logo.png" class="logo" alt="Logo" >
+        <input type="checkbox" id="menu">
+        <label for="menu" class="menu-icon">
+            <img src="imagenes/menu.png" class="menu-icono" alt="Menú" >
+        </label>
+        <nav class="navbar">
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="acercadenosotros.html">Acerca de nosotros</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="header-content container"data-aos="fade-up">
+        <h1>ACERCA DE NOSOTROS</h1>
+    </div>
+</header>
+
+    <!-- Sección de Sobre Nosotros -->
+    <section class="general">
+      <div class="general-1" data-aos="fade-right">
+        <h2>Sobre nosotros</h2>
+        <p>
+          En Equilibrio Ambiental, nos dedicamos a transformar espacios urbanos en lugares más seguros y saludables mediante soluciones profesionales y ecológicas. Nuestra misión se basa en el compromiso con la sostenibilidad y la protección del entorno, ofreciendo servicios especializados en control de plagas, desratización y sanitización.
+          Originada por la preocupación de ciudadanos conscientes del impacto de plagas y microorganismos, Equilibrio Ambiental se ha convertido en un referente en el manejo ecológico de problemas ambientales. 
+        </p>
+      </div>
+      <div class="general-2"data-aos="fade-left"></div>
+    </section>
+
+    <!-- Sección de Misión -->
+    <section class="general">
+      <div class="general-3" data-aos="fade-right"></div>
+      <div class="general-1" data-aos="fade-left">
+        <h2>Misión</h2>
+        <p>
+          Abordamos los desafíos del control de plagas con un enfoque integral que equilibra eficacia y respeto por el medio ambiente. Nuestro equipo de expertos no solo se dedica a resolver problemas inmediatos, sino que también trabaja para educar a la comunidad en prácticas preventivas que fomentan un entorno más limpio y seguro.
+        </p>
+      </div>
+    </section>
+
+    <!-- Sección de Visión -->
+    <section class="general">
+      <div class="general-1"data-aos="fade-right">
+        <h2>Visión</h2>
+        <p>
+          Creemos en la importancia de empoderar a nuestros clientes, proporcionando también conocimiento para mantener espacios saludables a largo plazo. Aspiramos a ser reconocidos por nuestra labor educativa y compromiso con la sostenibilidad, impactando positivamente la vida de nuestros clientes y el medio ambiente.
+        </p>
+      </div>
+      <div class="general-2"data-aos="fade-left"></div>
+    </section>
+
+    <section>
+      <footer class="footer">
+        <div class="footer-content container">
+          <!-- Aquí puedes agregar contenido para el pie de página -->
+        </div>
+      </footer>
+    </section>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+      
+        const body = document.body;
+        body.classList.add('fade-in');
+    
+       
+        const links = document.querySelectorAll('a[href]');
+        links.forEach(link => {
+          link.addEventListener('click', function (e) {
+            const href = link.getAttribute('href');
+            
+           
+            if (href && !href.startsWith('#') && !link.target) {
+              e.preventDefault();
+    
+             
+              body.classList.remove('fade-in');
+              body.classList.add('fade-out');
+    
+              setTimeout(() => {
+                window.location.href = href; 
+              }, 500); 
+            }
+          });
+        });
+      });
+    </script>
+    <script>
+      AOS.init({
+        duration: 1000, 
+        easing: 'ease-in-out', 
+      });
+    </script>
+  </body>
+</html>

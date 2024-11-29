@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<header class="header-services">
+    <div class="menu container">
+        <img src="imagenes/logo.png" class="logo" alt="Logo">
+        <input type="checkbox" id="menu">
+        <label for="menu" class="menu-icon">
+            <img src="imagenes/menu.png" class="menu-icono" alt="Menú">
+        </label>
+        <nav class="navbar">
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="acercadenosotros.html">Acerca de nosotros</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="header-content container"data-aos="fade-up">
+        <h1>SERVICIOS</h1>
+    </div>
+</header>
+
+<section class="servicios-section">
+
+    <!-- Tarjeta de Control de Plagas -->
+    <div class="servicio-card"data-aos="zoom-in">
+        <h2>Control de Plagas</h2>
+        <img src="imagenes/control-de-plagas.png" alt="Control de Plagas" class="titulo-imagen">
+        <p>Nuestro servicio de control de plagas está diseñado para gestionar y eliminar diversas plagas que pueden afectar su salud y bienestar.</p>
+        <button class="boton1" onclick="toggleInfo('info-control-plagas')">Más Información</button>
+        <div id="info-control-plagas" class="servicio-info" style="display: none;">
+            <h3 style="color: #006400;">CONTROL DE PLAGAS</h3>
+            <p>Nuestro servicio de control de plagas está diseñado para gestionar y eliminar diversas plagas que pueden afectar su salud y bienestar. En Equilibrio Ambiental, aplicamos estrategias modernas que incluyen:</p>
+            <ul style="list-style-type: none; padding-left: 0;">
+                <li><strong>Diagnóstico preciso:</strong> Realizamos inspecciones detalladas para identificar las plagas específicas en su entorno.</li>
+                <li><strong>Plan de acción integral:</strong> Elaboramos planes que combinan métodos preventivos, mecánicos, y biológicos, adaptados a su situación particular.</li>
+                <li><strong>Métodos ecológicos:</strong> Utilizamos tratamientos que minimizan el impacto ambiental, como bioplaguicidas y barreras físicas.</li>
+                <li><strong>Monitoreo continuo:</strong> Llevamos a cabo revisiones periódicas para asegurar la efectividad del tratamiento.</li>
+                <li><strong>Asesoría preventiva:</strong> Ofrecemos orientación sobre cómo prevenir futuras infestaciones, manteniendo su espacio libre de plagas.</li>
+            </ul>
+            <p style="background-color: #DFF0D8; padding: 10px; border-radius: 8px;">Nuestro enfoque garantiza no solo la eliminación eficaz de plagas, sino también la prevención de su reaparición, asegurando un entorno seguro y saludable para usted y su familia.</p>
+        </div>
+    </div>
+
+    <!-- Tarjeta de Desratización -->
+    <div class="servicio-card"data-aos="zoom-in">
+        <h2>Desratización</h2>
+        <img src="imagenes/plaga.png" alt="Desratización" class="titulo-imagen">
+        <p>Nuestro servicio de desratización se enfoca en erradicar y prevenir infestaciones de roedores que pueden causar problemas de salud y daños estructurales.</p>
+        <button class="boton1" onclick="toggleInfo('info-desratizacion')">Más Información</button>
+        <div id="info-desratizacion" class="servicio-info" style="display: none;">
+            <h3 style="color: #D4A017;">DESRATIZACIÓN</h3>
+            <p>En Equilibrio Ambiental, ofrecemos un servicio completo que incluye:</p>
+            <ul style="list-style-type: none; padding-left: 0;">
+                <li><strong>Evaluación completa:</strong> Identificamos las especies de roedores y evaluamos la magnitud de la infestación en su propiedad.</li>
+                <li><strong>Métodos efectivos:</strong> Utilizamos trampas, cebos en estaciones seguras y dispositivos de control avanzados para eliminar roedores de manera efectiva.</li>
+                <li><strong>Prevención:</strong> Implementamos barreras físicas para bloquear accesos y asesoramos sobre la correcta gestión de residuos para evitar atraer roedores.</li>
+                <li><strong>Revisión periódica:</strong> Realizamos inspecciones continuas para verificar la eficacia del control y prevenir nuevas infestaciones.</li>
+            </ul>
+            <p style="background-color: #FFF8DC; padding: 10px; border-radius: 8px;">Nuestros métodos garantizan un ambiente libre de roedores, asegurando su tranquilidad y la integridad de su propiedad.</p>
+        </div>
+    </div>
+
+    <!-- Tarjeta de Sanitización -->
+    <div class="servicio-card"data-aos="zoom-in">
+        <h2>Sanitización</h2>
+        <img src="imagenes/desinfectante.png" alt="Sanitización" class="titulo-imagen">
+        <p>El servicio de sanitización de Equilibrio Ambiental es esencial para mantener la higiene y seguridad de sus espacios.</p>
+        <button class="boton1" onclick="toggleInfo('info-sanitizacion')">Más Información</button>
+        <div id="info-sanitizacion" class="servicio-info" style="display: none;">
+            <h3 style="color: #FF4500;">SANITIZACIÓN</h3>
+            <p>En respuesta a sus necesidades, ofrecemos:</p>
+            <ul style="list-style-type: none; padding-left: 0;">
+                <li><strong>Desinfección profunda:</strong> Aplicamos desinfectantes de alta calidad en superficies de alto contacto, como manijas y escritorios.</li>
+                <li><strong>Nebulización avanzada:</strong> Utilizamos nebulizadores para dispersar desinfectantes en áreas amplias, garantizando una cobertura completa.</li>
+                <li><strong>Protocolos adaptados:</strong> Personalizamos nuestros procedimientos de sanitización según las características y necesidades específicas de su espacio.</li>
+                <li><strong>Cumplimiento normativo:</strong> Aseguramos que todos los productos y métodos utilizados cumplen con las normativas sanitarias vigentes en Chile.</li>
+            </ul>
+            <p style="background-color: #FFE4B5; padding: 10px; border-radius: 8px;">Proporcionamos ambientes desinfectados y seguros, protegiendo su salud y bienestar, y contribuyendo a un entorno más saludable.</p>
+        </div>
+    </div>
+
+</section>
+
+<script>
+    function toggleInfo(id) {
+        const infoSection = document.getElementById(id);
+        infoSection.style.display = infoSection.style.display === "block" ? "none" : "block";
+    }
+</script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+   
+      const body = document.body;
+      body.classList.add('fade-in');
+  
+    
+      const links = document.querySelectorAll('a[href]');
+      links.forEach(link => {
+        link.addEventListener('click', function (e) {
+          const href = link.getAttribute('href');
+          
+        
+          if (href && !href.startsWith('#') && !link.target) {
+            e.preventDefault();
+  
+            
+            body.classList.remove('fade-in');
+            body.classList.add('fade-out');
+  
+            setTimeout(() => {
+              window.location.href = href; 
+            }, 500); 
+          }
+        });
+      });
+    });
+  </script>
+  <script>
+    AOS.init({
+      duration: 1000, 
+      easing: 'ease-in-out', 
+      once: true 
+    });
+  </script>
+</body>
+</html>

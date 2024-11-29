@@ -1,0 +1,1575 @@
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(imagenes/paisaje1.jpg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+}
+.menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 250px;
+  height: 150px;
+}
+.menu .navbar ul li {
+  position: relative;
+  float: left;
+}
+.menu .navbar ul li a {
+  font-size: 18px;
+  padding: 20px;
+  color: #fffdfc;
+  display: block;
+  font-weight: 600;
+}
+.menu .navbar ul li a:hover {
+  color: chartreuse;
+}
+#menu {
+  display: none;
+}
+.menu-icono {
+  width: 25px;
+}
+.menu label {
+  cursor: pointer;
+  display: none;
+}
+.header-content {
+  text-align: center;
+  padding-top: 100px;
+}
+.header-content h1 {
+  font-size: 75px;
+  line-height: 80px;
+  color: azure;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.header-content p {
+  color: #c5c5c5;
+  font-size: 20px;
+  padding: 0 250px;
+  margin-bottom: 25px;
+}
+.boton1 {
+  border-radius: 50px;
+  padding: 11px 35px;
+  background-color: #ce9678;
+  color: #f9fafc;
+  text-transform: uppercase;
+}
+.boton1:hover {
+  background-color: aqua;
+}
+.compromiso {
+  padding: 100px 0;
+  background-color: #e1e2e6;
+  position: relative;
+}
+.compromiso-content {
+  text-align: center;
+}
+.compromiso-content h2 {
+  font-size: 55px;
+  line-height: 70px;
+  color: #323337;
+  text-transform: uppercase;
+  padding: 0 250px;
+  margin-bottom: 15px;
+}
+.txt-p {
+  font-size: 16px;
+  color: #414247;
+  padding: 0 250px;
+  margin-bottom: 35px;
+}
+.compromiso-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.compromiso-1 {
+  padding: 0 25px;
+}
+.compromiso-1 img {
+  width: 200px;
+}
+
+.compromiso-1 h3 {
+  color: #323337;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.servicios {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(imagenes/paisaje2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 100px 0;
+}
+.servicios-content {
+  text-align: center;
+}
+.servicios-content h2 {
+  font-size: 55px;
+  line-height: 70px;
+  color: #f9fafc;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+.servicios-content p {
+  font-size: 16px;
+  color: #c5c5c5;
+  margin-bottom: 50px;
+  padding: 0 100px;
+}
+.noticias-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.noticias-group h3 {
+  font-size: 16px;
+  color: #f9fafc;
+}
+.noticia-1 {
+  padding: 0 100px;
+}
+.noticia-1 img {
+  width: 25px;
+  margin-bottom: 15px;
+}
+.noticia-1 h3 {
+  color: #eaccb3;
+  font-size: 18px;
+}
+.noticia-2 {
+  padding: 0 100px;
+}
+.noticia-2 img {
+  width: 25px;
+  margin-bottom: 15px;
+}
+.noticia-2 h3 {
+  color: #eaccb3;
+  font-size: 18px;
+}
+.noticia-3 {
+  padding: 0 100px;
+}
+.noticia-3 img {
+  width: 25px;
+  margin-bottom: 15px;
+}
+.noticia-3 h3 {
+  color: #eaccb3;
+  font-size: 18px;
+}
+
+.general {
+  display: flex;
+}
+.general-1 {
+  width: 50%;
+  padding: 100px 250px 100px 100px;
+  background-color: #e1e2e6;
+}
+.general-2 {
+  background-image: url(imagenes/paisaje1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+}
+.general-3 {
+  background-image: url(imagenes/paisaje2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+}
+h2 {
+  font-size: 55px;
+  line-height: 70px;
+  color: #323337;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+p {
+  font-size: 16px;
+  color: #414247;
+  margin: 25px 0 45px 0;
+}
+.blog {
+  padding: 100px 0;
+  text-align: center;
+}
+.blog-content {
+  display: flex;
+  justify-content: space-between;
+}
+.blog-1 {
+  padding: 15px 55px;
+}
+.blog-1 img {
+  width: 250px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+.blog-1 h3 {
+  font-size: 25px;
+  color: #323337;
+}
+.footer {
+  padding: 100px 0;
+  background-color: #000000;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+.link h3 {
+  font-size: 18px;
+  color: #f9fafc;
+  margin-bottom: 15px;
+}
+.link a {
+  font-size: 16px;
+  color: #c5c5c5;
+  display: block;
+  margin-bottom: 15px;
+}
+
+/*Acerca de nosotros*/
+
+.about {
+  /* centrar vertical y horizontalmente */
+  padding: 50px 0;
+  background-color: #e5d5bb;
+  position: relative;
+  text-align: center;
+  border-radius: 50px;
+  display: block;
+}
+.mission {
+  padding: 50px 0;
+  background-color: #e5d5bb;
+  position: relative;
+  text-align: center;
+  border-radius: 50px;
+}
+.vision {
+  padding: 50px 0;
+  background-color: #e5d5bb;
+  position: relative;
+  text-align: center;
+  border-radius: 50px;
+}
+
+.header-about {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(imagenes/paisaje1.jpg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 991px) {
+  .menu {
+    padding: 30px;
+  }
+  .menu label {
+    display: initial;
+  }
+  .menu .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #323337;
+    display: none;
+  }
+  .logo {
+    width: 160px;
+    height: 90px;
+  }
+  .menu .navbar ul li {
+    width: 100%;
+  }
+  #menu:checked ~ .navbar {
+    display: initial;
+  }
+  .header {
+    min-height: 0vh;
+  }
+  .header-content {
+    padding: 100px 30px;
+  }
+  .header-content p {
+    padding: 0;
+  }
+  .compromiso-content h2 {
+    padding: 0;
+  }
+  .txt-p {
+    padding: 0;
+  }
+  .compromiso-group {
+    flex-direction: column;
+  }
+  .compromiso-img {
+    display: none;
+  }
+  .servicios {
+    padding: 30px;
+  }
+  .servicios-content p {
+    padding: 0;
+  }
+  .servicios-group {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  .servicios-1 {
+    margin-bottom: 25px;
+  }
+  .general {
+    flex-direction: column;
+  }
+  .general-1 {
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+  }
+  .general-2,
+  .general-3 {
+    display: none;
+  }
+  .blog {
+    padding: 30px;
+  }
+  .blog-content {
+    flex-direction: column;
+  }
+  .blog-1 {
+    padding: 0;
+  }
+  .footer {
+    padding: 30px;
+  }
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  /*Acerca de nosotros*/
+}
+
+/* Estilos para el encabezado de la página de Servicios */
+.header-services {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(imagenes/paisaje1.jpg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+}
+
+.header-services .header-content {
+  text-align: center;
+  color: azure;
+}
+
+.header-services h1 {
+  font-size: 75px;
+  line-height: 80px;
+  color: azure;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+}
+
+/* Estilos para el encabezado de la página de Servicios */
+.header-services {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(imagenes/paisaje1.jpg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+}
+
+.header-services .header-content {
+  text-align: center;
+  color: azure;
+}
+
+.header-services h1 {
+  font-size: 75px;
+  line-height: 80px;
+  color: azure;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+}
+
+/* Estilos para la sección de Servicios */
+.servicios-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 40px 0;
+}
+
+.servicio-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: calc(33.333% - 20px);
+  box-sizing: border-box;
+  transition: transform 0.3s ease;
+  position: relative;
+}
+
+.servicio-card:hover {
+  transform: scale(1.05);
+}
+
+.servicio-info {
+  background-color: #f0f5f2;
+  border-radius: 10px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #333;
+  padding: 20px;
+  margin-top: 15px;
+  display: none;
+}
+
+.servicio-info h3 {
+  color: #006400;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.servicio-info ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.servicio-info ul li {
+  padding: 5px 0;
+  color: #333;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.boton1 {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 25px;
+  background-color: #ce9678;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.boton1:hover {
+  background-color: #a36b50;
+  color: #ffffff;
+}
+
+.servicio-info {
+  background-color: #f0f5f2;
+  border-radius: 10px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #333;
+  padding: 20px;
+  margin-top: 15px;
+  display: none;
+}
+
+.servicio-info h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Estilos específicos para cada servicio */
+#info-control-plagas {
+  color: #006400; /* Verde oscuro */
+}
+
+#info-desratizacion {
+  color: #D4A017; /* Amarillo */
+}
+
+#info-sanitizacion {
+  color: #FF4500; /* Naranja */
+}
+
+.servicio-info ul li {
+  padding: 5px 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.boton1 {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 25px;
+  background-color: #ce9678;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.boton1:hover {
+  background-color: #a36b50;
+  color: #ffffff;
+}
+
+/* Centrado y espaciado de la sección de servicios */
+.servicios-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 40px 0;
+  justify-content: center; /* Centrando las tarjetas */
+}
+
+.servicio-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: calc(30% - 20px); /* Tamaño adecuado para centrar en tres columnas */
+  box-sizing: border-box;
+  transition: transform 0.3s ease;
+  position: relative;
+}
+
+.servicio-info {
+  background-color: #f0f5f2;
+  border-radius: 10px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #333;
+  padding: 20px;
+  margin-top: 15px;
+  display: none;
+}
+
+.servicio-info h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #006400; /* Color base para encabezados */
+}
+
+.servicio-info ul li {
+  padding: 5px 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.boton1 {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 25px;
+  background-color: #ce9678;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.boton1:hover {
+  background-color: #a36b50;
+  color: #ffffff;
+}
+
+/* Responsivo para pantallas más pequeñas */
+@media (max-width: 991px) {
+  .servicio-card {
+      width: calc(45% - 20px); /* Dos columnas en pantallas medianas */
+  }
+}
+
+@media (max-width: 600px) {
+  .servicio-card {
+      width: 100%; /* Una columna en pantallas pequeñas */
+  }
+}
+
+.servicio-card h2 {
+  text-align: center; /* Centra el título */
+  font-size: 24px;
+  color: #333; /* Cambia según el color deseado */
+  margin-bottom: 10px;
+}
+
+.servicio-info img.servicio-imagen {
+  display: block;
+  margin: 15px auto; /* Centra la imagen horizontalmente */
+  max-width: 100%; /* Ajusta la imagen para que no exceda el ancho del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+  border-radius: 8px; /* Opcional: añade bordes redondeados para un efecto visual más suave */
+}
+
+/* Imagen debajo del título */
+.titulo-imagen {
+  display: block;
+  margin: 10px auto; /* Centra la imagen horizontalmente */
+  width: 50px; /* Tamaño más pequeño */
+  height: auto;
+}
+/* Imagen debajo del título */
+.titulo-imagen {
+  display: block;
+  margin: 10px auto; /* Centra la imagen horizontalmente */
+  width: 50px; /* Tamaño más pequeño */
+  height: auto;
+}
+
+.servicio-info {
+  display: none; /* Oculta cada sección inicialmente */
+  background-color: #f0f5f2;
+  border-radius: 10px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #333;
+  padding: 20px;
+  margin-top: 15px;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+.header-products {
+  background-color: #0072bc;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.header-products h1 {
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+.productos-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 40px 0;
+}
+
+.producto-item {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  box-sizing: border-box;
+}
+
+.producto-item h3 {
+  color: #0072bc;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.producto-item p {
+  font-size: 14px;
+  color: #333;
+}
+
+.producto-info {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.producto-info img {
+  width: 60px;
+  height: auto;
+  margin-right: 15px;
+}
+
+.producto-detalles ul {
+  list-style: none;
+  padding: 0;
+  font-size: 14px;
+}
+
+.producto-detalles ul li {
+  line-height: 1.5;
+}
+/* Encabezado para la página de Productos */
+.header-products {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('imagenes/paisaje1.jpg');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+}
+
+.header-products .header-content {
+  text-align: center;
+  color: azure;
+}
+
+.header-products h1 {
+  font-size: 75px;
+  line-height: 80px;
+  color: azure;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+}
+/* Estilos para la sección de productos */
+.productos-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.producto {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.producto-imagen {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.producto-info {
+  max-width: 600px;
+}
+
+.producto-info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.producto-info p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.producto-info ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+/* Estilos para la cabecera de productos */
+.header-products {
+  background-color: #1A73E8;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Contenedor principal para los productos */
+.productos-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  width: 100%; /* Ocupa todo el ancho disponible */
+}
+
+/* Estilo para cada tarjeta de producto */
+.producto-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #E8F5F8; /* Color de fondo similar al de la muestra */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  width: 100%; /* Ocupa todo el ancho disponible */
+  max-width: none; /* Permite que se extienda sin límite */
+  margin: 0 auto; /* Centrado de los productos en el contenedor */
+}
+
+.producto-item:hover {
+  transform: scale(1.02);
+}
+
+.producto-item img {
+  width: 200px; /* Ajuste del tamaño de imagen para un diseño más grande */
+  height: auto;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.producto-descripcion {
+  flex: 1; /* Permite que la descripción ocupe el resto del espacio */
+  font-size: 14px;
+  color: #333;
+}
+
+.producto-descripcion h2 {
+  font-size: 20px;
+  color: #007B83; /* Color similar al texto resaltado en la muestra */
+  margin-bottom: 10px;
+}
+
+.producto-descripcion p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.producto-descripcion ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.producto-descripcion ul li {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .producto-item {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .producto-descripcion {
+      max-width: 100%;
+  }
+}
+
+.servicios-section {
+  background: linear-gradient(135deg, #f0f7ff, #e3eef7);
+  padding: 60px 0;
+}
+
+.servicio-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: calc(30% - 20px);
+  transition: transform 0.3s ease;
+  position: relative;
+  border: 1px solid #e0e0e0;
+}
+
+.servicio-card h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.servicio-card img {
+  display: block;
+  margin: 10px auto;
+  width: 60px; /* Ajusta el tamaño del ícono */
+  height: auto;
+}
+
+.servicio-card p {
+  font-size: 16px;
+  color: #6b7b8c;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.boton1 {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 25px;
+  background: linear-gradient(135deg, #ffa726, #fb8c00); /* Color degradado */
+  color: #ffffff;
+  font-weight: 600;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  border: none;
+  margin-top: 15px;
+}
+
+.boton1:hover {
+  background: linear-gradient(135deg, #fb8c00, #e65100); /* Degradado de hover */
+}
+
+/* Estilo del encabezado de la página de contacto */
+.header-contacto {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(imagenes/paisaje1.jpg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.header-contacto .header-content h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 0;
+}
+
+/* Estilos para el menú */
+.menu.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar ul li {
+  list-style: none;
+}
+
+.navbar ul li a {
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  color: #ce9678;
+}
+
+/* Estilo de la sección de contacto */
+.contacto-section {
+  background: #f0f7ff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.contacto-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contacto-container h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.contacto-container p {
+  font-size: 16px;
+  color: #6b7b8c;
+  margin-bottom: 20px;
+}
+
+.contacto-container a {
+  color: #3b5998; /* Color del enlace a Instagram */
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.contacto-container a:hover {
+  color: #2c3e50;
+}
+
+.whatsapp-button {
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: #25D366; /* Color verde de WhatsApp */
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  margin-top: 15px;
+}
+
+.whatsapp-button:hover {
+  background-color: #1ebe57; /* Un tono más oscuro de verde para el hover */
+}
+/* Estilo para los íconos de contacto */
+.contact-icon {
+  width: 20px; /* Ajusta el tamaño del ícono según prefieras */
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 8px; /* Espacio entre el ícono y el texto */
+}
+
+/* Ajustes de estilo de WhatsApp */
+.whatsapp-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 20px;
+  background-color: #25D366; /* Color verde de WhatsApp */
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  margin-top: 15px;
+}
+
+.whatsapp-button:hover {
+  background-color: #1ebe57; /* Un tono más oscuro de verde para el hover */
+}
+.compromiso-1 img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+@media (max-width: 600px) {
+  .compromiso-1 img {
+      max-width: 80%; /* Cambia el tamaño según sea necesario */
+  }
+}
+/* Asegura que el contenido no exceda el ancho de la pantalla */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ajusta el contenedor principal para que ocupe el ancho completo */
+body {
+  overflow-x: hidden;
+  max-width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+.compromiso-2 img {
+  max-width: 80%; /* Ajusta el tamaño de la imagen al 80% del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+  display: block;
+  margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+.compromiso-3 img {
+  max-height: 200px; /* Ajusta este valor según el tamaño exacto que tiene la imagen de Compromiso 1 */
+  width: auto; /* Mantiene la proporción de la imagen */
+  display: block;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  /* Ajuste para el título principal en la sección de inicio */
+  .header-content h1 {
+      font-size: 40px; /* Reduce el tamaño del título */
+      line-height: 45px;
+      padding: 0 20px; /* Añade padding lateral si es necesario */
+  }
+
+  /* Ajuste para los subtítulos o secciones con títulos grandes */
+  h2 {
+      font-size: 28px; /* Tamaño más pequeño para h2 */
+      line-height: 34px;
+      text-align: center; /* Alineación central en móvil */
+  }
+
+  /* Ajuste para el texto descriptivo en las secciones */
+  .header-content p, .compromiso-content .txt-p, .servicios-content p {
+      font-size: 16px; /* Ajuste del tamaño de texto */
+      padding: 0 15px; /* Espaciado para móviles */
+      text-align: justify; /* Alineación para mejor legibilidad */
+  }
+
+  /* Ajuste para los botones en móviles */
+  .boton1 {
+      padding: 8px 20px; /* Ajusta el padding del botón */
+      font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  /* Ajuste para la sección de Noticias */
+  .noticias-group {
+      flex-direction: column; /* Muestra las noticias en una columna */
+      align-items: center; /* Centra las noticias en dispositivos móviles */
+  }
+
+  .noticias-group .noticia-1,
+  .noticias-group .noticia-2,
+  .noticias-group .noticia-3 {
+      width: 90%; /* Ajusta el ancho de cada noticia para móviles */
+      margin-bottom: 15px; /* Espaciado entre cada noticia */
+  }
+
+  /* Ajuste para la sección Nuestro Compromiso */
+  .compromiso-group {
+      flex-direction: column; /* Muestra los compromisos en una sola columna */
+      align-items: center; /* Centra los compromisos en móviles */
+  }
+
+  .compromiso-group .compromiso-1,
+  .compromiso-group .compromiso-2,
+  .compromiso-group .compromiso-3 {
+      width: 90%; /* Ajusta el ancho de cada compromiso para móviles */
+      margin-bottom: 15px; /* Espaciado entre cada compromiso */
+  }
+
+  .compromiso-1 img,
+  .compromiso-2 img,
+  .compromiso-3 img {
+      max-width: 80%; /* Ajusta el tamaño de las imágenes de compromiso */
+      height: auto;
+  }
+
+  /* Ajustes de tamaño de texto y alineación */
+  .noticias-group h3,
+  .compromiso-group h3 {
+      font-size: 20px; /* Tamaño adecuado para los títulos en móviles */
+      text-align: center; /* Centrado de los títulos */
+  }
+
+  .compromiso-content .txt-p, 
+  .servicios-content p {
+      font-size: 16px; /* Tamaño de texto para mejor legibilidad en móviles */
+      padding: 0 15px; /* Espaciado en los lados */
+      text-align: justify; /* Alineación justificada para mejorar legibilidad */
+  }
+}
+@media (max-width: 768px) {
+  /* Ajuste para el título "Nuestro Compromiso" */
+  .compromiso-content h2, .noticias-group h3 {
+    font-size: 28px; /* Tamaño más pequeño para h2 en móviles */
+    line-height: 34px; /* Ajusta el interlineado para móviles */
+    text-align: center; /* Centra el texto */
+    padding: 0 15px; /* Añade un pequeño padding lateral */
+  }
+}
+@media (max-width: 768px) {
+  /* Ajuste para el título "Noticias" */
+  .servicios-content h2, .noticias-group h3 {
+    font-size: 28px; /* Tamaño más pequeño para h2 en móviles */
+    line-height: 34px; /* Ajusta el interlineado para móviles */
+    text-align: center; /* Centra el texto */
+    padding: 0 15px; /* Añade un pequeño padding lateral */
+  }
+
+  /* Ajustes adicionales para la sección de noticias */
+  .noticias-group {
+    flex-direction: column; /* Cambia a una columna en móviles */
+    align-items: center; /* Centra los elementos */
+  }
+
+  .noticias-group h3 {
+    font-size: 20px; /* Ajusta el tamaño del texto de las noticias */
+  }
+}
+@media (max-width: 768px) {
+  /* Ajustes para el título de la página en dispositivos móviles */
+  .header-services h1 {
+      font-size: 40px;
+      line-height: 45px;
+      padding: 0 20px;
+  }
+
+  /* Ajustes para las tarjetas de servicios en dispositivos móviles */
+  .servicios-section {
+      display: flex;
+      flex-direction: column; /* Cambia a columna en dispositivos móviles */
+      padding: 20px;
+  }
+
+  .servicio-card {
+      width: 100%; /* Ocupa todo el ancho en dispositivos móviles */
+      margin-bottom: 20px; /* Espacio entre tarjetas */
+      padding: 15px; /* Reduce el padding para ajustar contenido */
+  }
+
+  .servicio-card h2 {
+      font-size: 24px; /* Ajusta el tamaño del título */
+      text-align: center;
+  }
+
+  .servicio-card img.titulo-imagen {
+      width: 80px; /* Tamaño más pequeño para la imagen en móviles */
+      margin: 10px auto; /* Centra la imagen */
+  }
+
+  .servicio-card p {
+      font-size: 16px;
+      text-align: justify;
+  }
+
+  /* Ajuste para el botón "Más Información" en dispositivos móviles */
+  .boton1 {
+      padding: 8px 20px;
+      font-size: 14px;
+      display: block;
+      margin: 10px auto;
+  }
+
+  /* Ajustes para las secciones de información adicional de cada servicio */
+  .servicio-info {
+      padding: 15px;
+      font-size: 14px;
+  }
+
+  .servicio-info h3 {
+      font-size: 18px;
+      text-align: center;
+  }
+
+  .servicio-info ul li {
+      font-size: 14px;
+      line-height: 1.4;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-content h1 {
+      font-size: 32px; /* Ajusta el tamaño según necesites */
+      line-height: 36px;
+      padding: 0 20px;
+      text-align: center;
+  }
+}
+/* Estilos para el menú hamburguesa en dispositivos móviles */
+.menu-icon {
+  position: absolute;
+  top: 10px; /* Ajusta el valor según la distancia que quieras del borde superior */
+  left: 10px; /* Ajusta el valor según la distancia que quieras del borde izquierdo */
+  cursor: pointer;
+  display: none; /* Solo se mostrará en móviles */
+}
+
+/* Mostrar el menú hamburguesa en dispositivos móviles */
+@media (max-width: 991px) {
+  .menu .navbar {
+      display: none; /* Oculta el menú normal */
+  }
+  
+  .menu-icon {
+      display: block; /* Muestra el menú hamburguesa */
+  }
+  
+  #menu:checked ~ .navbar {
+      display: block; /* Muestra el menú desplegable cuando se selecciona el ícono */
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.9); /* Fondo semi-transparente */
+      z-index: 10;
+  }
+}
+
+/* Estilos para el menú hamburguesa en dispositivos móviles */
+.menu-icon {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  cursor: pointer;
+  display: none;
+  z-index: 20;
+}
+
+@media (max-width: 991px) {
+  .menu .navbar {
+      display: none;
+  }
+  
+  .menu-icon {
+      display: block;
+  }
+
+  #menu:checked ~ .navbar {
+      display: block;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.9);
+      z-index: 10;
+  }
+
+  .navbar ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 50px;
+  }
+
+  .navbar ul li {
+      margin-bottom: 20px;
+  }
+
+  .navbar ul li a {
+      color: #fff;
+      font-size: 18px;
+      text-decoration: none;
+  }
+}
+/* Estilos para menú hamburguesa a la izquierda */
+.menu label {
+  display: inline-block;
+  position: absolute;
+  left: 20px; /* Ajusta según sea necesario */
+  top: 20px;
+}
+
+/* Estilos para los íconos de contacto */
+.contact-icon, .whatsapp-button {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.contact-icon img, .whatsapp-button img {
+  width: 20px; /* Tamaño de ícono */
+  height: 20px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+/* Ajustes para el menú en pantallas móviles */
+@media (max-width: 600px) {
+  .menu label {
+      left: 10px;
+      top: 15px;
+  }
+}
+.contacto-container {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto; /* Centra el contenedor en la página */
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact-icon, .whatsapp-button {
+  display: inline-flex; /* Para que los íconos y texto estén alineados horizontalmente */
+  align-items: center;
+  font-size: 16px;
+  margin: 10px 0;
+  justify-content: center; /* Centra el contenido en el contenedor */
+}
+
+.contact-icon img, .whatsapp-button img {
+  width: 20px; /* Tamaño de ícono */
+  height: 20px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.contacto-container h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.contacto-container p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.contacto-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; /* Espacio entre los elementos */
+}
+
+.contacto-links a {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+.contacto-links img.contact-icon {
+  margin-right: 8px;
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+
+/* Transición al cargar y salir */
+.fade-out {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+}
+
+.fade-in {
+  opacity: 1;
+  transition: opacity 0.5s ease-in;
+}
+.parallax {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}

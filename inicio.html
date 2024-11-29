@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        /* Importación de fuentes */
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap");
+
+        /* Media Queries para pantallas pequeñas */
+        @media (max-width: 991px) {
+            .menu {
+                flex-direction: column;
+                align-items: center;
+            }
+            .navbar ul {
+                flex-direction: column;
+            }
+            .header-content h1 {
+                font-size: 40px;
+            }
+            .header-content p {
+                padding: 0 20px;
+            }
+            .compromiso-content, .servicios-content, .general-1, .blog-content {
+                padding: 0 20px;
+            }
+            .compromiso-group, .noticias-group, .blog-content {
+                flex-direction: column;
+                align-items: center;
+            }
+            .compromiso-1, .compromiso-2, .compromiso-3, .noticia-1, .noticia-2, .noticia-3, .blog-1 {
+                max-width: 100%;
+                padding: 10px;
+                text-align: center;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .header-content h1 {
+                font-size: 32px;
+            }
+            .header-content p, .txt-p {
+                font-size: 14px;
+            }
+            .compromiso-group, .noticias-group, .blog-content {
+                flex-direction: column;
+            }
+            .general {
+                flex-direction: column;
+            }
+            .general-1, .general-2, .general-3 {
+                width: 100%;
+                text-align: center;
+                padding: 20px;
+            }
+            .footer-content {
+                flex-direction: column;
+                text-align: center;
+            }
+            .logo {
+                max-width: 150px;
+                height: auto;
+            }
+            .header-content a.boton1, .compromiso-content a.boton1, .blog a.boton1 {
+                width: 100%;
+                text-align: center;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+  <header class="header">
+    <div class="menu container">
+        <img src="imagenes/logo.png" class="logo" alt="Logo">
+        <input type="checkbox" id="menu">
+        <label for="menu" class="menu-icon">
+            <img src="imagenes/menu.png" class="menu-icono" alt="Menú">
+        </label>
+        <nav class="navbar">
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="acercadenosotros.html">Acerca de nosotros</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="header-content container">
+        <h1>Somos Equilibrio Ambiental</h1>
+        <p>Soluciones profesionales y ecológicas para mantener tus espacios limpios y seguros. Nos enfocamos en control de plagas, desratización y sanitización.</p>
+        <a href="#" class="boton1"data-aos="zoom-in">Más información</a>
+    </div>
+</header>
+
+
+<section class="compromiso">
+    <div class="compromiso-content container">
+        <h2>Nuestros compromisos</h2>
+        <p class="txt-p">Estamos comprometidos con la sostenibilidad y la protección del medio ambiente, brindando servicios eficaces que minimizan el impacto ambiental.</p>
+        <div class="compromiso-group">
+            <div class="compromiso-1"data-aos="zoom-in">
+                <img src="imagenes/gato1.png" alt="Imagen 1">
+                <h3>Compromiso 1</h3>
+                <p>Proveemos soluciones efectivas y seguras para el control de plagas, adaptadas a las necesidades de cada espacio.</p>
+            </div>
+            <div class="compromiso-2"data-aos="zoom-in">
+                <img src="imagenes/gato2.png" alt="Imagen 2">
+                <h3>Compromiso 2</h3>
+                <p>Trabajamos con productos que cumplen con los estándares de seguridad, cuidando la salud de nuestros clientes y del entorno.</p>
+            </div>
+            <div class="compromiso-3"data-aos="zoom-in">
+                <img src="imagenes/gato3.png" alt="Imagen 3">
+                <h3>Compromiso 3</h3>
+                <p>Fomentamos prácticas preventivas para mantener los espacios libres de plagas a largo plazo.</p>
+            </div>
+        </div>
+        <a href="#" class="boton1"data-aos="zoom-in">Más información</a>
+    </div>
+</section>
+
+<main class="servicios">
+    <div class="servicios-content container">
+        <h2>Noticias</h2>
+        <div class="noticias-group"data-aos="zoom-in">
+            <div class="noticia-1">
+                <img src="imagenes/pastel1.png" alt="Noticia 1">
+                <h3>Noticia 1</h3>
+            </div>
+            <div class="noticia-2">
+                <img src="imagenes/pastel1.png" alt="Noticia 2">
+                <h3>Noticia 2</h3>
+            </div>
+            <div class="noticia-3">
+                <img src="imagenes/pastel1.png" alt="Noticia 3">
+                <h3>Noticia 3</h3>
+            </div>
+        </div>
+        <p>Descubre nuestras últimas novedades en control de plagas y protección ambiental.</p>
+        <a href="#" class="boton1"data-aos="zoom-in">Más información</a>
+    </div>
+</main>
+
+<section class="general">
+    <div class="general-1"data-aos="fade-right">
+        <h2>Nuestro Enfoque</h2>
+        <p>Nos especializamos en el control de plagas de manera responsable y segura, aplicando las mejores prácticas del sector.</p>
+        <a href="#" class="boton1">Más información</a>
+    </div>
+    <div class="general-2"data-aos="fade-left"></div>
+</section>
+
+<section class="blog container"data-aos="fade-up">
+    <h2>Blog</h2>
+    <p>Artículos sobre sostenibilidad, control de plagas y consejos para el mantenimiento de espacios seguros y saludables.</p>
+    <div class="blog-content">
+        <div class="blog-1"data-aos="zoom-in">
+            <img src="imagenes/gato1.png" alt="Blog 1">
+            <h3>Blog 1</h3>
+            <p>Explora nuestros artículos para conocer las mejores prácticas en la protección de tu entorno.</p>
+        </div>
+        <div class="blog-1"data-aos="zoom-in">
+            <img src="imagenes/gato2.png" alt="Blog 2">
+            <h3>Blog 2</h3>
+            <p>Conoce más sobre las tendencias y técnicas más innovadoras en control de plagas.</p>
+        </div>
+        <div class="blog-1"data-aos="zoom-in">
+            <img src="imagenes/gato3.png" alt="Blog 3">
+            <h3>Blog 3</h3>
+            <p>Aprende a mantener tus espacios seguros con nuestras recomendaciones de expertos.</p>
+        </div>
+    </div>
+    <a href="#" class="boton1">Más información</a>
+</section>
+
+<footer class="footer">
+    <div class="footer-content container">
+        <div class="link">
+            <h3>Conéctate con nosotros</h3>
+            <ul>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">Twitter</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+   
+      const body = document.body;
+      body.classList.add('fade-in');
+  
+    
+      const links = document.querySelectorAll('a[href]');
+      links.forEach(link => {
+        link.addEventListener('click', function (e) {
+          const href = link.getAttribute('href');
+          
+        
+          if (href && !href.startsWith('#') && !link.target) {
+            e.preventDefault();
+  
+            
+            body.classList.remove('fade-in');
+            body.classList.add('fade-out');
+  
+            setTimeout(() => {
+              window.location.href = href; 
+            }, 500); 
+          }
+        });
+      });
+    });
+  </script>
+  <script>
+    AOS.init({
+      duration: 1000, 
+      easing: 'ease-in-out', 
+      once: true 
+    });
+  </script>
+</body>
+</html>
